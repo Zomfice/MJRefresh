@@ -92,9 +92,9 @@
 {
     MJRefreshCheckState
     self.arrowView.hidden = YES;
-    if (state == MJRefreshStateNoMoreData || state == MJRefreshStateIdle) {
+    if (state == MJRefreshStateNoMoreData) {
         [self.loadingView stopAnimating];
-    } else if (state == MJRefreshStateRefreshing) {
+    } else {
         [self.loadingView startAnimating];
     }
     /*
