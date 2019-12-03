@@ -9,6 +9,7 @@
 #import "MJRefreshGifHeader.h"
 
 #import "MJRefreshBackNormalFooter.h"
+#import "MJRefreshBackCustomFooter.h"
 #import "MJRefreshBackGifFooter.h"
 #import "MJRefreshAutoNormalFooter.h"
 #import "MJRefreshAutoGifFooter.h"

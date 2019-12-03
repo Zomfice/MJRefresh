@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		01A2CE0C21ACE01500BEE365 /* MJRefreshConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2CE0B21ACE01500BEE365 /* MJRefreshConfig.m */; };
 		01EB8272236846CE00813DAA /* MJWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB8271236846CE00813DAA /* MJWKWebViewController.m */; };
+		0E424AF02396638900333D33 /* MJRefreshBackCustomFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E424AEF2396638900333D33 /* MJRefreshBackCustomFooter.m */; };
 		2D4698861D0EE6A400CB8025 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4698851D0EE6A400CB8025 /* NSBundle+MJRefresh.m */; };
 		2D9BEB091BB15F4A00AED473 /* UIViewController+Example.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BEAE01BB15F4A00AED473 /* UIViewController+Example.m */; };
 		2D9BEB0A1BB15F4A00AED473 /* MJChiBaoZiFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BEAE31BB15F4A00AED473 /* MJChiBaoZiFooter.m */; };
@@ -125,6 +126,8 @@
 		01A2CE0B21ACE01500BEE365 /* MJRefreshConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJRefreshConfig.m; sourceTree = "<group>"; };
 		01EB8270236846CE00813DAA /* MJWKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJWKWebViewController.h; sourceTree = "<group>"; };
 		01EB8271236846CE00813DAA /* MJWKWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJWKWebViewController.m; sourceTree = "<group>"; };
+		0E424AEE2396638900333D33 /* MJRefreshBackCustomFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackCustomFooter.h; sourceTree = "<group>"; };
+		0E424AEF2396638900333D33 /* MJRefreshBackCustomFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBackCustomFooter.m; sourceTree = "<group>"; };
 		2D4698841D0EE6A400CB8025 /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
 		2D4698851D0EE6A400CB8025 /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
 		2D9BEADF1BB15F4A00AED473 /* UIViewController+Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Example.h"; sourceTree = "<group>"; };
@@ -475,6 +478,8 @@
 				2DB2EA011BECBE6700D58F6A /* MJRefreshBackGifFooter.m */,
 				2DB2EA021BECBE6700D58F6A /* MJRefreshBackNormalFooter.h */,
 				2DB2EA031BECBE6700D58F6A /* MJRefreshBackNormalFooter.m */,
+				0E424AEE2396638900333D33 /* MJRefreshBackCustomFooter.h */,
+				0E424AEF2396638900333D33 /* MJRefreshBackCustomFooter.m */,
 				2DB2EA041BECBE6700D58F6A /* MJRefreshBackStateFooter.h */,
 				2DB2EA051BECBE6700D58F6A /* MJRefreshBackStateFooter.m */,
 			);
@@ -717,6 +722,7 @@
 				2D9BEB091BB15F4A00AED473 /* UIViewController+Example.m in Sources */,
 				2D9BEB111BB15F4A00AED473 /* MJExampleViewController.m in Sources */,
 				2DB2EA1D1BECBE6700D58F6A /* MJRefreshAutoNormalFooter.m in Sources */,
+				0E424AF02396638900333D33 /* MJRefreshBackCustomFooter.m in Sources */,
 				2D9BEB0C1BB15F4A00AED473 /* MJChiBaoZiHeader.m in Sources */,
 				2DB2EA1B1BECBE6700D58F6A /* MJRefreshHeader.m in Sources */,
 				01EB8272236846CE00813DAA /* MJWKWebViewController.m in Sources */,
