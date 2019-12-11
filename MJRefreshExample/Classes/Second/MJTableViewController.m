@@ -40,10 +40,16 @@ static const CGFloat MJDuration = 2.0;
     __weak __typeof(self) weakSelf = self;
     
     // 设置回调（一旦进入刷新状态就会调用这个refreshingBlock）
-    self.tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+//    self.tableView.mj_header = [MJRefreshCustomHeader headerWithRefreshingBlock:^{
+//        [weakSelf loadNewData];
+//    }];
+    MJRefreshCustomHeader * header = [MJRefreshCustomHeader headerWithRefreshingBlock:^{
         [weakSelf loadNewData];
     }];
-    
+    header.automaticallyChangeAlpha = YES;
+    header.lastUpdatedTimeLabel.hidden = YES;
+    header.stateLabel.hidden = YES;
+    self.tableView.mj_header = header;
     // 马上进入刷新状态
     [self.tableView.mj_header beginRefreshing];
 }
@@ -296,7 +302,7 @@ static const CGFloat MJDuration = 2.0;
         [tableView reloadData];
         
         // 拿到当前的下拉刷新控件，结束刷新状态
-        [tableView.mj_header endRefreshing];
+        //[tableView.mj_header endRefreshing];
     });
 }
 
